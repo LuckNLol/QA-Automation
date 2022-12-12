@@ -1,0 +1,83 @@
+{
+  "id": "bab6d465-905b-4ce1-a4a5-4365d340d43f",
+  "version": "2.0",
+  "name": "ЗАДАНИЕ",
+  "url": "https://skillfactory.ru",
+  "tests": [{
+    "id": "1a572bed-6811-4ed4-a377-1ea74faa5d11",
+    "name": "ЗАДАНИЕ",
+    "commands": [{
+      "id": "183ef157-d51b-4ab4-a143-20602dc0083b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fad1b202-477c-4300-8b1f-728285f662be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05b98043-bacf-4ddf-a35c-7afdce3d0185",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__4567460551563735937155 .tn-atom__img",
+      "targets": [
+        ["css=.tn-elem__4567460551563735937155 .tn-atom__img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.tildacdn.com/tild3935-6161-4263-b638-623138373033/photo.svg')]", "xpath:img"],
+        ["xpath=//div[@id='rec456746055']/div/div/div[7]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fafdc88-dd8b-4ab6-84c4-40165278b9ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Программирование",
+      "targets": [
+        ["linkText=Программирование", "linkText"],
+        ["css=.t976__list-item:nth-child(3) > .t976__menu-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Программирование')]", "xpath:link"],
+        ["xpath=//div[@id='rec520657663']/div/div/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/programmirovanie')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a027992-51fe-4d3b-8ce5-a40b2020d197",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5205735261652779744723 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5205735261652779744723 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec520573526']/div/div/div[41]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/start-it-specialist-proforientaciya?utm_source=yandex&utm_medium=cpc&utm_campaign=none_sf_all_yandex_cpc_general_brand-poisk_none_reg_sf_all&utm_content=all&utm_term=63656573|%d1%81%d0%ba%d0%b8%d0%bb%d0%bb%20%d1%84%d1%8d%d0%ba%d1%82%d0%be%d1%80%d0%b8%20%d0%be%d1%82%d0%b7%d1%8b%d0%b2%d1%8b|38714932019|38714932019&param=skillfactory')])[2]", "xpath:href"],
+        ["xpath=//div[41]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win234",
+      "windowTimeout": 2000
+    }, {
+      "id": "03e2efba-d4e2-44b7-b192-9ad138975f2f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win234}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3723d6b8-95f2-457e-8ab1-617db67833ef",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1a572bed-6811-4ed4-a377-1ea74faa5d11"]
+  }],
+  "urls": ["https://skillfactory.ru/"],
+  "plugins": []
+}
